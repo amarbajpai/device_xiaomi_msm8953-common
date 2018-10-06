@@ -96,6 +96,10 @@ ro.fm.transmitter=false
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Fix Miracast
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.wfd.virtual=0
+
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.gps.qc_nlp_in_use=1 \
