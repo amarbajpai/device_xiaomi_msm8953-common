@@ -387,7 +387,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# Xiaomi
-PRODUCT_PACKAGES += \
-    Gestures \
-    XiaomiParts
