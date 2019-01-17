@@ -29,5 +29,9 @@
     <!-- Keyguard emergency button -->
     <bool name="kg_hide_emgcy_btn_when_oos">true</bool>
     <bool name="config_showEmergencyButton">false</bool>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">6</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
 </resources>
 
