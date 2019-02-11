@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     antradio_app \
     libantradio
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl \
