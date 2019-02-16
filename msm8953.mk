@@ -273,7 +273,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Perf
--include vendor/qcom/common/qti-vendor.mk
+include vendor/qcom/common/qti-vendor.mk
 
 # Power
 PRODUCT_PACKAGES += \
