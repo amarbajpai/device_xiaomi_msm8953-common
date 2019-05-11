@@ -112,6 +112,7 @@ ro.gps.agps_provider=1
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
 media.aac_51_output_enabled=true \
+debug.sf.enable_hwc_vds=1 \
 media.msm8956hw=0 \
 media.stagefright.audio.sink=280 \
 vendor.mm.enable.qcom_parser=1048575 \
